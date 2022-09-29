@@ -22,7 +22,7 @@ int main() {
 	cout << endl;
 	cout << " max uint= " << UINT_MAX << " min uint= " << 0 << " uint size= " << sizeof(unsigned int) << endl;
 	cout << endl;
-    cout << " max short= " << SHRT_MAX << " min short= " << SHRT_MIN << " short size= " << sizeof(short) << endl;
+        cout << " max short= " << SHRT_MAX << " min short= " << SHRT_MIN << " short size= " << sizeof(short) << endl;
 	cout << endl;
 	cout << " max ushort= " << USHRT_MAX << " min ushort= " << 0  << " ushort size= " << sizeof(unsigned short) << endl;
 	cout << endl;
@@ -46,7 +46,7 @@ int main() {
 	cout << " Hex: 0x" << std::hex << c << endl;
 	cout << endl;
 	cout << " Результаты преобразования типов ко всем встроенным: ";
-    cout << endl;
+        cout << endl;
 	cout << " Bool: " << bool(c) << endl;
 	cout << " Double: " << double(c) << endl;
 	cout << " Char: " << char(c) << endl;
